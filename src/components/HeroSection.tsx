@@ -57,13 +57,13 @@ const HeroSection = () => (
       <motion.div className="flex flex-col items-center gap-1.5 mt-2" {...fadeUp(0.6)}>
         <p className="text-sm text-muted-foreground">
           <span className="opacity-60">Nombre de cliente:</span>{" "}
-          <span className="text-foreground/80">NSIGN TV</span>
+          <span className="text-foreground/80">Nunsys</span>
           <span className="mx-3 opacity-30">|</span>
           <span className="opacity-60">Fecha:</span> <span className="text-foreground/80">XX/XX/2026</span>
         </p>
         <p className="text-sm text-muted-foreground">
           <span className="opacity-60">Persona de contacto:</span>{" "}
-          <span className="text-foreground/80">Liana Carvalho</span>
+          <span className="text-foreground/80">XXXX</span>
         </p>
         <p className="text-sm text-muted-foreground">
           <span className="opacity-60">Creado por:</span> <span className="text-foreground/80">David Ochoa Tapia</span>
