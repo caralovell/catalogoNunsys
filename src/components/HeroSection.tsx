@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import LogopostLogo from "./LogopostLogo";
-import nsign from "@/assets/nsign.png";
+import nsign from "@/assets/Nunsys.png";
 import hposh from "@/assets/hposhh.png";
 
 const fadeUp = (delay: number) => ({
@@ -31,7 +31,7 @@ const HeroSection = () => (
     <div className="relative z-10 flex flex-col items-center gap-8 max-w-3xl w-full">
       {/* 1. Client logo placeholder */}
       <motion.div {...fadeUp(0.1)}>
-        <img src={nsign} alt="NSIGN" className="h-20 md:h-24 w-auto" />
+        <img src={nsign} alt="Nunsys" className="h-20 md:h-24 w-auto" />
       </motion.div>
 
       {/* 2. Label */}
